@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  *jack_bauer-print minutes of the day
- *@n: function  parameter
+ *
  *Return: no return
  */
-int jack_bauer(int n)
+void jack_bauer(void)
 {
 	int n1, n2, n3, n4;
 
