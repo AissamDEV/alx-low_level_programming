@@ -1,6 +1,6 @@
 #include"main.c"
 /**
- * main - Entry point
+ * main - functions
  *
  * Return: Always 0 (Success)
  */
