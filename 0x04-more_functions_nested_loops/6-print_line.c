@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_line- function
- *@n: variable
+ *@n: integer
  */
 void print_line(int n)
 {
