@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
 /**
  *_puts - print a string
  *@str: string
- * Return: Always 0 (Success)
  */
 void _puts(char *str)
 {
-	puts(str);
-	return (0);
+	while (*str != '\0')
+	{
+		_putchar(*str++);
+	}
+		_putchar('\n');
 }
