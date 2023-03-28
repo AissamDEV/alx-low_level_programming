@@ -7,7 +7,7 @@
  */
 void puts2(char *str)
 {
-	int lo= 0;
+	int lo = 0;
 	int t = 0;
 	char *y = str;
 	int o;
