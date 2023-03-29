@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
-  *_strncat - function that concatenates two strings
+  *_strncat- function that concatenates two strings
   *@dest : first pointer
   *@src: second pointer
-  *@n: bytes 
+  *@n: bytes
   *Return: dest
   */
 char *_strncat(char *dest, char *src, int n)
