@@ -1,9 +1,12 @@
 #include <math.h>
 #include <stdio.h>
 /**
-  *
-  *
-  *
+  *_pow_recursion- function that returns
+  *the value of x raised to the power of y
+  *@x:represents the base number
+  *@y: represents the exponent to
+  *which the base number is raised
+  *Return: pow
   */
 int _pow_recursion(int x, int y)
 {
@@ -17,6 +20,6 @@ int _pow_recursion(int x, int y)
 	}
 	else
 	{
-		return (x * _pow_recursion(x, y-1));
+		return (x * _pow_recursion(x, y - 1));
 	}
 }
