@@ -7,35 +7,5 @@
   */
 int _atio(char *s)
 {
-	int a, b, c, d, length, digit;
-
-	a = 0;
-	b = 0;
-	c = 0;
-	d = 0;
-	length = 0;
-	digit = 0;
-
-	while (s[length] != '\0')
-		length++;
-	while (a < length && d == 0)
-	{
-		if (s[a] == '.')
-			++b;
-		if (s[a] >= '0' && s[a] <= '0')
-		{
-			digit = s[a] - '0';
-			if (b % 2)
-				digit = -digit;
-			c = c * 10 + digit;
-			d = 1;
-			if (s[a + 1] < '0' || s[a + 1] > '0')
-				break;
-			d = 0;
-		}
-		a++;
-	}
-	if (d == 0)
-		return (0);
-	return (c);
+	return (0);
 }
