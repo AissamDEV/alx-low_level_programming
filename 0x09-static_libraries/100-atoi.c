@@ -24,14 +24,14 @@ int _atio(char *s)
 	{
 		if (s[a] == '.')
 			++b;
-		if (s[a] >= '0' && s[a] <= '0')
+		if (s[a] >= '0' && s[a] <= '9')
 		{
 			digit = s[a] - '0';
 			if (b % 2)
 				digit = -digit;
 			c = c * 10 + digit;
 			d = 1;
-			if (s[a + 1] < '0' || s[a + 1] > '0')
+			if (s[a + 1] < '0' || s[a + 1] > '9')
 				break;
 			d = 0;
 		}
