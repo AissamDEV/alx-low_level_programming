@@ -8,9 +8,16 @@
   */
 char *_strdup(char *str)
 {
-	char *str1 = malloc(strlen(str) + 1);
+	char *str1;
 
-	if (str == NULL || str1 == NULL)
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+
+	str1 = malloc(strlen(str) + 1);
+
+	if (str1 == NULL)
 	{
 		return (NULL);
 	}
