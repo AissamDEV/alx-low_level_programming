@@ -4,7 +4,7 @@
   *str_concat - function that concatenates two strings
   *@s1: first string
   *@s2: second string
-  *Return: NULL if rezult null, strdup(result) overwize
+  *Return: NULL if rezult null, result overwize
   */
 char *str_concat(char *s1, char *s2)
 {
@@ -34,5 +34,5 @@ char *str_concat(char *s1, char *s2)
 	strcpy(result, s1);
 	strcat(result, s2);
 
-	return (strdup(result));
+	return (result);
 }
