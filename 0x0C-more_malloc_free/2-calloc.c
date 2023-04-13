@@ -1,6 +1,7 @@
 #include <stdlib.h>
+#include "main.h"
 /**
-  *calloc - function that allocates memory
+  *_calloc - function that allocates memory
   *for an array, using malloc
   *@nmemb: is unsigned integer that specifies
   *the number of elements to allocate
@@ -24,7 +25,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 	for (i = 0; i < nmemb * size; i++)
 	{
-		*((char*)ptr + i) = 0;
+		*((char *)ptr + i) = 0;
 	}
 	return (ptr);
 }
