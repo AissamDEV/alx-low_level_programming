@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <string.h>
 /**
-  *
-  *
-  *
+  **_realloc - function that reallocates a memory
+  *@ptr: pointer
+  *@old_size: old memory size
+  *@new_size: new memory size
+  *Return: new ptr
   */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
