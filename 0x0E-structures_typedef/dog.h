@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /**
   *dog - name of the struct
   *@name: name of the dog
