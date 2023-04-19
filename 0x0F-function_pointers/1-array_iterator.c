@@ -2,15 +2,20 @@
 /**
   *array_iterator - function that executes a function given
   *as a parameter on each element of an array
-  *@array: pointer to the integer array that we want to iterate over  
+  *@array: pointer to the integer array that we want to iterate over
   *@size: integer representing the size of the array
   *@action: pointer to a function that takes an integer as an argument
   *and returns nothing
   */
 void array_iterator(int *array, size_t size, void (*action)(int));
 {
-	for (size_t i = 0; i < size; i++)
+	int *ptr = array + size - 1;
+
+	if (array && size && action)
 	{
-		action(array[i]);
+		while (array < ptr)
+		{
+			action(*array++);
+		}
 	}
 }
