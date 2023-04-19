@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "function_pointers.h"
+
 /**
   *print_name - function that prints name
   *@name:a pointer to a character string that represents a person's name
